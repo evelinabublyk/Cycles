@@ -112,6 +112,30 @@ public class Main {
                     }
 
                     case 5:
+                    {
+                        System.out.println("Enter your number");
+                        int number = sc.nextInt();
+
+                        if (number < 0)
+                        {
+                            System.out.println("ERROR: invalid input!");
+                        }
+
+                        int n1 = 2;
+                        int n2 = 1;
+
+                        while (n1 < number)
+                        {
+                            int i = 0;
+                            i++;
+                            System.out.print(n1 + " ");
+                            int t = n1;// t = 0
+                            n1 = n2;// n1 = 1
+                            n2 = t + n2;// n2 = 0 + 1
+                        }
+                        System.out.println();
+                        break;
+                    }
                 }
             }
         }
