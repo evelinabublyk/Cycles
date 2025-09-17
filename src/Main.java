@@ -8,7 +8,7 @@ public class Main {
         while(true) {
             System.out.println("Enter a number from 1 to 5");
             int task = sc.nextInt();
-            if (task < 0){
+            if (task < 0 && task > 5){
                 System.out.println("ERROR: invalid input!");
             }
             else if (task == 0){
