@@ -108,6 +108,7 @@ public class Main {
                                     n1 = n2;// n1 = 1
                                     n2 = t + n2;// n2 = 0 + 1
                                 }
+                        System.out.println();
                         break;
                     }
 
