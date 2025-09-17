@@ -127,8 +127,6 @@ public class Main {
 
                         while (n1 < number)
                         {
-                            int i = 0;
-                            i++;
                             System.out.print(n1 + " ");
                             int t = n1;// t = 0
                             n1 = n2;// n1 = 1
